@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enviando</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federant&family=Syne+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    Enviando...
+    <div class="lottie">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_9evakyqx.json"  background="transparent"  speed="1"  style="width: 550px; height: 550px;"  loop autoplay></lottie-player>
+    </div>
+
+    <div class="formulario">
+        <form action="">
+            <input type="email" required placeholder="Ingrese correo aquí">
+            <input type="password" placeholder="Ingrese contraseña aquí">
+            <br>
+            <label for="">Fecha de nacimiento</label>
+            <input type="date">
+            <label for="">Color favorito</label>
+            <input type="color">
+
+            <br> <br>
+            <textarea name="" id="" cols="30" rows="10">
+                comenta aquí
+            </textarea>
+            <br>
+            <input type="radio" value="adsi" id="adsi" name="tecnologo-en">
+            <label for="adsi">ADSI</label>
+            <input type="radio" value="adsi" id="adsi" name="tecnologo-en">
+            <label for="adso">ADSO</label>
+            <br>
+            <button type="submit">ENVIAR</button>
+
+        </form>
+    </div>
 </body>
 </html>
